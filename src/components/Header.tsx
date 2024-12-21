@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUser, FaSearch, FaHeart, FaShoppingCart } from "react-icons/fa";
-
+import Link from "next/link";
 const Header = (
   {bgColor}:{bgColor?:string}) => {
   return (
@@ -9,10 +9,10 @@ const Header = (
       <div className="flex w-full max-w-[1440px] mx-auto items-center md:ml-10 lg:ml-52 xl:ml-96  ">
         
         <nav className="flex space-x-2 sm:gap-10 md:space-x-6 text-xs sm:text-sm md:text-base lg:text-lg font-bold">
-          <a href="#home" className="text-black hover:text-gray-600">Home</a>
-          <a href="#shop" className="text-black hover:text-gray-600">Shop</a>
-          <a href="#about" className="text-black hover:text-gray-600">About</a>
-          <a href="#contact" className="text-black hover:text-gray-600">Contact</a>
+          <Link href="/" className="text-black hover:text-gray-600">Home</Link>
+          <Link href="/Shop" className="text-black hover:text-gray-600">Shop</Link>
+          <Link href="#about" className="text-black hover:text-gray-600">About</Link>
+          <Link href="#contact" className="text-black hover:text-gray-600">Contact</Link>
         </nav>
 
     

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from "next/link"
 const Footer = () => {
   return (
     <footer className="bg-white py-10">
@@ -17,10 +17,10 @@ const Footer = () => {
           <div className="flex flex-col items-center lg:items-start lg:w-1/3">
             <h2 className="text-gray-700 text-2xl xl:text-3xl font-semibold">Links</h2>
             <nav className="list-none py-5 flex flex-col items-center lg:items-start gap-5">
-              <li><a href="#" className="hover:text-gray-800">Home</a></li>
-              <li><a href="#" className="hover:text-gray-800">Shop</a></li>
-              <li><a href="#" className="hover:text-gray-800">About</a></li>
-              <li><a href="#" className="hover:text-gray-800">Contact</a></li>
+              <li><Link href="/" className="hover:text-gray-800">Home</Link></li>
+              <li><Link href="/Shop" className="hover:text-gray-800">Shop</Link></li>
+              <li><Link href="#" className="hover:text-gray-800">About</Link></li>
+              <li><Link href="#" className="hover:text-gray-800">Contact</Link></li>
             </nav>
           </div>
 
