@@ -64,7 +64,7 @@ const Shopb = () => {
                 <Image 
                   alt="ecommerce" 
                   className="object-cover object-center w-full h-full block" 
-                  src="/Plain console with teak mirror 1.png" 
+                  src="/Plainmirror.png" 
                   width={423} 
                   height={263} 
                 />

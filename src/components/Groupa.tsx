@@ -75,7 +75,7 @@ const Groupa = () => {
             <Image
               alt="ecommerce"
               className="object-cover object-center w-full h-full"
-              src="/Plain console with teak mirror 1.png"
+              src="/Plainmirror.png"
               width={400}
               height={400}
             />
